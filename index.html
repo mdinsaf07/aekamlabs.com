@@ -12,106 +12,112 @@
 <body>
     <header class="bg-gradient-to-r from-blue-1000 via-blue-800 to-blue-500 pt-3">
 
-        <nav>
-            <img src="./images/Logo_white.png" alt="Aekam Logo" class="h-10 w-10 ml-5 inline-block">
-            <div class="group inline-block float-right mr-4">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-9 w-9" fill="none" viewBox="0 0 24 24" stroke="white">
+        <nav class="md:pt-5 md:w-4/5 md:m-auto">
+            <img src="./images/Logo_white.png" alt="Aekam Logo" class="h-10 w-10 ml-5 inline-block md:h-16 md:w-16">
+            <div class="group inline-block float-right mr-4 md:py-8">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-9 w-9 md:hidden" fill="none" viewBox="0 0 24 24" stroke="white">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                 </svg>
-                <ul class="hidden group-hover:block font-mono text-center">
-                    <a>
-                        <li class="px-4 py-2">What we do</li>
-                    </a>
-                    <a>
-                        <li class="px-4 py-2">How we work</li>
-                    </a>
-                    <a>
-                        <li class="px-4 py-2">Courses</li>
-                    </a>
+                <ul class="hidden font-mono text-center md:inline md:text-white">
+                    <li class="px-4 py-2 md:inline md:text-sm md:underline"><a href="#">What we do</a></li>
+                    <li class="px-4 py-2 md:inline md:text-sm md:underline"><a href="#">we work</a></li>
+                    <li class="px-4 py-2 md:inline md:text-sm md:underline"><a href="#">Courses</a></li>
                 </ul>
             </div>
-
-            <h1 class="text-5xl font-semibold text-white pt-20 text-center">Aekam Labs</h1>
-            <p class="text-2xl text-center text-white font-semibold mt-3">Make things.</p>
-            <p class="text-white text-xl w-9/12 text-center m-auto py-10 mt-10">Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Eum vero voluptas dolorum maiores aperiam nemo saepe omnis soluta est assumenda!</p>
-            <div class="flex justify-center pb-10 mt-10">
-                <input type="text" placeholder="Email Id" class="w-1/2 shadow-inner border border-blue-900 h-12 text-xl px-2 mr-0 rounded-l-md">
-                <button class="text-white text-lg bg-blue-900 border border-blue-900 px-6 h-12 shadow-2xl  ml-0 rounded-r-md hover:bg-blue-800">Get Invite</button>
-            </div>
+            <div class="md:grid md:grid-cols-2 m-0">
+                <div class="">
+                    <h1 class="text-5xl font-semibold text-white pt-32 text-center md:text-left">Aekam Labs</h1>
+                    <p class="text-2xl text-center text-white font-semibold mt-3 md:text-left">Make things.</p>
+                    <p class="text-white text-xl w-9/12 text-center m-auto py-10 mt-10 md:text-left md:m-0">Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Eum vero voluptas dolorum maiores aperiam nemo saepe omnis soluta est assumenda!</p>
+                </div>
+                <div class="flex justify-center pb-10 mt-10 md:self-center">
+                    <input type="text" placeholder="Email Id" class="w-1/2 shadow-inner border border-blue-900 h-12 text-xl px-2 mr-0 rounded-l-md">
+                    <button class="text-white text-lg bg-blue-900 border border-blue-900 px-6 h-12 shadow-2xl  ml-0 rounded-r-md hover:bg-blue-800">Get Invite</button>
+                </div>
+            </div>   
         </nav>
         
 
     </header>
-    <section>
-        <h2 class="text-4xl font-normal text-black tracking-wide text-center mt-16 mb-11">How it works?</h2>
-        <div class="flex flex-col justify-items-center items-center py-6">
+    <section class="pt-16">
+        <h2 class="font-mono text-4xl font-bold text-black tracking-wide text-center mb-11">How it works?</h2>
+        <div class="grid grid-cols-1 justify-items-center items-center py-6 md:grid-cols-4">
             <div class="py-8">
                 <img src="images/idea.png">
             </div>
-            <div class="mb-20">
-                <h6 class="text-center text-xl font-medium">Idiate</h6>
-                <p class="text-sm py-2.5">Turn your idea from concept to MVP</p>
+            <div class="mb-20 md:row-start-2 md:px-5">
+                <h6 class="font-mono text-center text-xl font-semibold">Ideate</h6>
+                <p class="font-mono text-sm py-2.5 md:text-center">Turn your idea from concept to MVP</p>
             </div>
-            <div class="py-8">
+            <div class="py-10">
                 <img src="images/design.png">
             </div>
-            <div class="mb-20">
-                <h6 class="text-center text-xl font-medium">Design</h6>
-                <p class="text-sm py-2.5">Sketch out the product to align the user needs.</p>
+            <div class="mb-20 md:row-start-2 md:col-start-2 md:px-5">
+                <h6 class="font-mono text-center text-xl font-semibold">Design</h6>
+                <p class="font-mono text-sm py-2.5 md:text-center">Sketch out the product to align the user needs.</p>
             </div>
             <div class="py-8"> 
                 <img src="images/roadmap.png">
             </div>
-            <div class="mb-20">
-                <h6 class="text-center text-xl font-medium">Develop</h6>
-                <p class="text-sm py-2.5">Convert the design into a live application</p>
+            <div class="mb-20 md:row-start-2 md:col-start-3 md:px-5">
+                <h6 class="font-mono text-center text-xl font-semibold">Develop</h6>
+                <p class="font-mono text-sm py-2.5 md:text-center">Convert the design into a live application</p>
             </div>
             <div class="py-8">
                 <img src="images/deploy.png">
             </div>
-            <div class="mb-20">
-                <h6 class="text-center text-xl font-medium">Deploy</h6>
-                <p class="text-sm py-2.5">Launching the application to the market</p>
+            <div class="mb-20 md:row-start-2 md:col-start-4 md:px-5">
+                <h6 class="font-mono text-center text-xl font-semibold">Deploy</h6>
+                <p class="font-mono text-sm py-2.5 md:text-center">Launching the application to the market</p>
             </div>
         </div>
     </section>
-    <footer class="">
-        <div class="bg-gray-300 grid grid-cols-2 gap-y-4 justify-items-center ">
-            <div class="col-span-2 py-12">
+    <section class="bg-gradient-to-b from-gray-500 via-gray-300 to-white">
+        <h1 class="font-mono text-4xl font-bold text-white tracking-wide text-center py-10">Our Course</h1>
+        <h3 class="font-mono text-3xl font-medium text-white tracking-wide text-center">Front-End Developer</h3>
+        <div class="flex justify-center pb-20">
+            <div>
+                <img src="./images/path.png" alt="" class="py-14">
+            </div>
+        </div>
+    </section>
+    <footer class="bg-gray-300 py-5">
+        <div class="grid grid-cols-2 gap-y-4 justify-items-center md:grid-cols-5 md:gap-0">
+            <div class="col-span-2 py-12 md:pb-0">
                 <img src="./images/Logo_blue with text.png" alt="Aekam Logo" class="object-contain h-28 w-28 ml-5">
             </div>
-            <div class="py-8">
-                <h4 class="mb-3">Support</h4>
+            <div class="py-8 md:py-0 md:row-span-3 md:justify-self-center md:self-center">
+                <h4 class="mb-3 font-mono">Support</h4>
                 <ul class="list-none">
-                    <li class="text-xs text-gray-600 mb-0.5">Help Center</li>
-                    <li class="text-xs text-gray-600 mb-0.5">Community Guidlines</li>
-                    <li class="text-xs text-gray-600 mb-0.5">Privacy Policy</li>
-                    <li class="text-xs text-gray-600 mb-0.5">FAQs</li>
+                    <li class="font-mono text-sm text-gray-600 mb-1">Help Center</li>
+                    <li class="font-mono text-sm text-gray-600 mb-1">Community Guidlines</li>
+                    <li class="font-mono text-sm text-gray-600 mb-1">Privacy Policy</li>
+                    <li class="font-mono text-sm text-gray-600 mb-1">FAQs</li>
                 </ul>
             </div>
-            <div class="py-8">
+            <div class="py-8 md:py-0 md:row-span-3 md:justify-self-center md:self-center">
                 <h4 class="mb-3">Company</h4>
                 <ul class="list-none">
-                    <li class="text-xs text-gray-600 mb-0.5">About us</li>
-                    <li class="text-xs text-gray-600 mb-0.5">Blog</li>
-                    <li class="text-xs text-gray-600 mb-0.5">Career</li>
-                    <li class="text-xs text-gray-600 mb-0.5">Contact us</li>
+                    <li class="font-mono text-sm text-gray-600 mb-1">About us</li>
+                    <li class="font-mono text-sm text-gray-600 mb-1">Blog</li>
+                    <li class="font-mono text-sm text-gray-600 mb-1">Career</li>
+                    <li class="font-mono text-sm text-gray-600 mb-1">Contact us</li>
                 </ul>
             </div>
-            <div class="col-span-2 justify-self-center py-5">
-                <h4 class="text-center">Say Hi!</h4>
+            <div class="col-span-2 justify-self-center py-5 md:col-span-1 md:row-span-3 md:justify-self-center md:self-center md:pb-0">
+                <h4 class="font-mono text-center md:text-left">Say Hi!</h4>
                 <form action="#" class="pt-3">
-                    <input type="text" placeholder="name" class="mb-1.5">
+                    <input type="text" placeholder="name" class="mb-1.5 font-mono pl-2 border-2 border-black">
                     <br>
-                    <input type="text" placeholder="email" class="mb-3">
+                    <input type="text" placeholder="email" class="mb-3 font-mono pl-2 border-2 border-black">
                     <br>
                 </form>
             </div>
-            <div class="col-span-2 justify-self-center">
+            <div class="col-span-2 justify-self-center md:py-3.5">
                 <p class="text-xs">&copy 2021 Aekam Labs. All rights reserved</p>
             </div>
-            <div class="col-span-2 flex pb-10 ">
+            <div class="col-span-2 flex pb-10 md:row-start-3 md:py-1">
                 <div class="px-1.5">
                     <img src="./images/instagram.png" alt=""class="w-5 h-5">
                 </div>
