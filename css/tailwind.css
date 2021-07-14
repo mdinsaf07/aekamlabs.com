@@ -7,4 +7,11 @@
         --tw-gradient-from: #0000ff;
         --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(30, 58, 138, 0));
       }
+
+}
+
+@layer components{
+  .font-mulish {
+    font-family: "Mulish";
+  }
 }

@@ -614,6 +614,10 @@ video {
   }
 }
 
+.font-mulish {
+  font-family: "Mulish";
+}
+
 .sr-only {
   position: absolute;
   width: 1px;

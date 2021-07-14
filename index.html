@@ -6,111 +6,143 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" type="text/css" href="build/tailwind.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Mulish' rel='stylesheet'>
+
     <title>AekamLabs</title>
 </head>
 
 <body>
-    <header class="bg-gradient-to-r from-blue-1000 via-blue-800 to-blue-500 pb-10">
+    <header class="bg-blue-900 pb-10 sm:pb-24">
 
         <nav class="md:pt-5 md:w-4/5 md:m-auto">
-            <img src="./images/Logo_white.png" alt="Aekam Logo" class="h-10 w-10 ml-5 inline-block mt-5 md:h-16 md:w-16">
+            <img src="./images/Logo_white.png" alt="Aekam Logo"
+                class="h-10 w-10 ml-5 inline-block object-contain mt-5 md:h-14 md:w-14">
             <div class="group inline-block float-right pt-5 pr-3 md:py-8">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-9 w-9 md:hidden" fill="none" viewBox="0 0 24 24" stroke="white">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-9 w-9 md:hidden" fill="none" viewBox="0 0 24 24"
+                    stroke="white">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                 </svg>
-                <ul class="hidden group-hover:inline-block group-hover:bg-black font-mono text-center md:group-hover:bg-transparent md:inline text-white">
-                    <li class="px-4 py-2 text-left md:inline md:text-sm md:underline"><a href="#">What we do</a></li>
-                    <li class="px-4 py-2 text-left md:inline md:text-sm md:underline"><a href="#">we work</a></li>
-                    <li class="px-4 py-2 text-left md:inline md:text-sm md:underline"><a href="#">Courses</a></li>
+                <ul
+                    class="hidden group-hover:inline-block group-hover:bg-black font-mulish text-center md:group-hover:bg-transparent md:inline text-white">
+                    <li class="px-4 py-2 text-left md:inline md:text-lg "><a href="#">What we do</a></li>
+                    <li class="px-4 py-2 text-left md:inline md:text-lg "><a href="#">How we work</a></li>
+                    <li class="px-4 py-2 text-left md:inline md:text-lg "><a href="#">Courses</a></li>
                 </ul>
             </div>
             <div class="lg:grid lg:grid-cols-2 m-0 lg:w-full lg:box-border">
                 <div class="">
-                    <h1 class="font-mono text-5xl font-semibold text-white pt-32 text-center lg:text-left">Aekam Labs</h1>
-                    <p class="font-mono text-2xl text-center text-white font-semibold mt-3 lg:text-left">Make things.</p>
-                    <p class="font-mono text-white text-xl w-9/12 text-center m-auto py-10 mt-10 lg:text-left lg:m-0">Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Eum vero voluptas dolorum maiores aperiam nemo saepe omnis soluta est assumenda!</p>
+                    <h1 class="font-mulish text-5xl font-semibold text-white pt-32 text-center lg:text-left">Aekam Labs
+                    </h1>
+                    <p class="font-mulish text-2xl text-center text-white font-semibold mt-3 lg:text-left">Make things.
+                    </p>
+                    <p class="font-mulish text-white text-xl w-9/12 text-center m-auto py-10 mt-10 lg:text-left lg:m-0">
+                        Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Eum vero voluptas dolorum maiores aperiam nemo saepe omnis soluta est
+                        assumenda!</p>
                 </div>
                 <div class="flex justify-center pb-10 mt-10 lg:self-center lg:justify-end">
-                    <input type="text" placeholder="Email Id" class="w-1/2 shadow-inner border border-blue-900 h-12 text-xl px-2 mr-0 rounded-l-md">
-                    <button class="text-white text-lg bg-blue-900 border border-blue-900 px-6 h-12 shadow-2xl  ml-0 rounded-r-md hover:bg-blue-800">Get Invite</button>
+                    <input type="text" placeholder="Email Id"
+                        class="w-1/2 shadow-inner border border-blue-900 h-14 text-xl px-2 rounded-l-md">
+                    <button
+                        class=" text-lg bg-yellow-400  px-6 shadow-2xl   rounded-r-md hover:bg-yellow-500 hover:text-black">Get
+                        Invite</button>
                 </div>
-            </div>   
+            </div>
         </nav>
-        
-
     </header>
-    <section class="pt-16">
-        <h2 class="font-mono text-4xl font-bold text-black tracking-wide text-center mb-11">How it works?</h2>
+
+
+    <section class="pt-16 bg-gray-100">
+        <h2 class="font-mulish text-4xl font-bold text-black tracking-wide text-center mb-11">How it works?</h2>
         <div class="grid grid-cols-1 justify-items-center items-center py-6 md:grid-cols-4">
             <div class="py-8">
                 <img src="images/idea.png">
             </div>
             <div class="mb-20 md:row-start-2 md:px-5">
-                <h6 class="font-mono text-center text-xl font-semibold">Ideate</h6>
-                <p class="font-mono text-sm py-2.5 md:text-center">Turn your idea from concept to MVP</p>
+                <h6 class="font-mulish text-center text-xl font-semibold">Ideate</h6>
+                <p class="font-mulish text-sm py-2.5 md:text-center">Turn your idea from concept to MVP</p>
             </div>
             <div class="py-10">
                 <img src="images/design.png">
             </div>
             <div class="mb-20 md:row-start-2 md:col-start-2 md:px-5">
-                <h6 class="font-mono text-center text-xl font-semibold">Design</h6>
-                <p class="font-mono text-sm py-2.5 md:text-center">Sketch out the product to align the user needs.</p>
+                <h6 class="font-mulish text-center text-xl font-semibold">Design</h6>
+                <p class="font-mulish text-sm py-2.5 md:text-center">Sketch out the product to align the user needs.</p>
             </div>
-            <div class="py-8"> 
+            <div class="py-8">
                 <img src="images/roadmap.png">
             </div>
             <div class="mb-20 md:row-start-2 md:col-start-3 md:px-5">
-                <h6 class="font-mono text-center text-xl font-semibold">Develop</h6>
-                <p class="font-mono text-sm py-2.5 md:text-center">Convert the design into a live application</p>
+                <h6 class="font-mulish text-center text-xl font-semibold">Develop</h6>
+                <p class="font-mulish text-sm py-2.5 md:text-center">Convert the design into a live application</p>
             </div>
             <div class="py-8">
                 <img src="images/deploy.png">
             </div>
             <div class="mb-20 md:row-start-2 md:col-start-4 md:px-5">
-                <h6 class="font-mono text-center text-xl font-semibold">Deploy</h6>
-                <p class="font-mono text-sm py-2.5 md:text-center">Launching the application to the market</p>
+                <h6 class="font-mulish text-center text-xl font-semibold">Deploy</h6>
+                <p class="font-mulish text-sm py-2.5 md:text-center">Launching the application to the market</p>
             </div>
         </div>
     </section>
-    <section class="bg-gradient-to-b from-gray-500 via-gray-300 to-white">
-        <h1 class="font-mono text-4xl font-bold text-white tracking-wide text-center py-10">Our Course</h1>
-        <h3 class="font-mono text-3xl font-medium text-white tracking-wide text-center">Front-End Developer</h3>
-        <div class="flex justify-center pb-20">
-            <div>
-                <img src="./images/path.png" alt="" class="py-14">
+
+    <section class="bg-white">
+        <h1 class="font-mulish text-4xl font-bold tracking-wide text-center py-10">Ongoing Cohorts</h1>
+        <div class="grid grid-cols-1 place-items-center py-10 sm:grid-cols-2">
+
+            <div class="border border-indigo-100 rounded font-mulish bg-gradient-to-r from-purple-500 via-purple-400 to-purple-300 w-11/12">
+                <div class="flex py-10 justify-center">
+                <img src="./images/developer.png" alt="Dev icon" class="object-contain w-28 ml-3 h-28">
+                <div class="px-4 mt-8">
+                    <h1 class="font-bold">Frontend Development</h1>
+                    <p class="font-medium text-sm">16 weeks</p>
+                </div>
             </div>
         </div>
+
+        <div class="border border-indigo-100 rounded font-mulish bg-gradient-to-r from-blue-500 via-blue-400 to-blue-300 w-11/12 mt-5 sm:mt-0">
+            <div class="flex py-10 justify-center">
+            <img src="./images/app.png" alt="Dev icon" class="object-contain w-28 ml-3 h-28">
+            <div class="px-4 py-5">
+                <h1 class="font-bold ">Flutter: 0 to 100</h1>
+                <p class="font-medium text-sm">16 weeks</p>
+            </div>
+        </div>
+    </div>
+    </div>
     </section>
+
     <footer class="bg-gray-300 py-5">
         <div class="grid grid-cols-2 gap-y-4 justify-items-center md:grid-cols-5 md:gap-0">
             <div class="col-span-2 py-12 md:pb-0">
                 <img src="./images/Logo_blue with text.png" alt="Aekam Logo" class="object-contain h-28 w-28 ml-5">
             </div>
             <div class="py-8 md:py-0 md:row-span-3 md:justify-self-center md:self-center">
-                <h4 class="mb-3 font-mono">Support</h4>
+                <h4 class="mb-3 font-mulish">Support</h4>
                 <ul class="list-none">
-                    <li class="font-mono text-sm text-gray-600 mb-1">Help Center</li>
-                    <li class="font-mono text-sm text-gray-600 mb-1">Community Guidlines</li>
-                    <li class="font-mono text-sm text-gray-600 mb-1">Privacy Policy</li>
-                    <li class="font-mono text-sm text-gray-600 mb-1">FAQs</li>
+                    <li class="font-mulish text-sm text-gray-600 mb-1">Help Center</li>
+                    <li class="font-mulish text-sm text-gray-600 mb-1">Community Guidlines</li>
+                    <li class="font-mulish text-sm text-gray-600 mb-1">Privacy Policy</li>
+                    <li class="font-mulish text-sm text-gray-600 mb-1">FAQs</li>
                 </ul>
             </div>
             <div class="py-8 md:py-0 md:row-span-3 md:justify-self-center md:self-center">
                 <h4 class="mb-3">Company</h4>
                 <ul class="list-none">
-                    <li class="font-mono text-sm text-gray-600 mb-1">About us</li>
-                    <li class="font-mono text-sm text-gray-600 mb-1">Blog</li>
-                    <li class="font-mono text-sm text-gray-600 mb-1">Career</li>
-                    <li class="font-mono text-sm text-gray-600 mb-1">Contact us</li>
+                    <li class="font-mulish text-sm text-gray-600 mb-1">About us</li>
+                    <li class="font-mulish text-sm text-gray-600 mb-1">Blog</li>
+                    <li class="font-mulish text-sm text-gray-600 mb-1">Career</li>
+                    <li class="font-mulish text-sm text-gray-600 mb-1">Contact us</li>
                 </ul>
             </div>
-            <div class="col-span-2 justify-self-center py-5 md:col-span-1 md:row-span-3 md:justify-self-center md:self-center md:pb-0">
-                <h4 class="font-mono text-center md:text-left">Say Hi!</h4>
+            <div
+                class="col-span-2 justify-self-center py-5 md:col-span-1 md:row-span-3 md:justify-self-center md:self-center md:pb-0">
+                <h4 class="font-mulish text-center md:text-left">Say Hi!</h4>
                 <form action="#" class="pt-3">
-                    <input type="text" placeholder="name" class="mb-1.5 font-mono pl-2 border-2 border-black">
+                    <input type="text" placeholder="name" class="mb-1.5 font-mulish pl-2 border-2 border-black">
                     <br>
-                    <input type="text" placeholder="email" class="mb-3 font-mono pl-2 border-2 border-black">
+                    <input type="text" placeholder="email" class="mb-3 font-mulish pl-2 border-2 border-black">
                     <br>
                 </form>
             </div>
@@ -119,16 +151,16 @@
             </div>
             <div class="col-span-2 flex pb-10 md:row-start-3 md:py-1">
                 <div class="px-1.5">
-                    <img src="./images/instagram.png" alt=""class="w-5 h-5">
+                    <img src="./images/instagram.png" alt="" class="w-5 h-5">
                 </div>
                 <div class="px-1.5">
-                    <img src="./images/twitter.png" alt=""class="w-5 h-5">
+                    <img src="./images/twitter.png" alt="" class="w-5 h-5">
                 </div>
                 <div class="px-1.5">
-                    <img src="./images/linkedin.png" alt=""class="w-5 h-5">
+                    <img src="./images/linkedin.png" alt="" class="w-5 h-5">
                 </div>
                 <div class="px-1.5">
-                    <img src="./images/youtube.png" alt=""class="w-5 h-5">
+                    <img src="./images/youtube.png" alt="" class="w-5 h-5">
                 </div>
             </div>
         </div>
