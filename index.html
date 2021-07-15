@@ -8,12 +8,13 @@
     <link rel="stylesheet" type="text/css" href="build/tailwind.css">
 
     <link href='https://fonts.googleapis.com/css?family=Mulish' rel='stylesheet'>
+    <link rel="icon" href="/images/Logo_blue.png">
 
-    <title>AekamLabs</title>
+    <title>Aekam Labs</title>
 </head>
 
 <body>
-    <header class="bg-blue-900 pb-10 sm:pb-24">
+    <header class="pb-10 sm:pb-24" style="background-image: url(/images/headerbg.JPG); background-size: cover; background-repeat: no-repeat;">
 
         <nav class="md:pt-5 md:w-4/5 md:m-auto">
             <img src="./images/Logo_white.png" alt="Aekam Logo"
@@ -30,31 +31,36 @@
                     <li class="px-4 py-2 text-left md:inline md:text-lg "><a href="#">Courses</a></li>
                 </ul>
             </div>
-            <div class="lg:grid lg:grid-cols-2 m-0 lg:w-full lg:box-border">
-                <div class="">
-                    <h1 class="font-mulish text-5xl font-semibold text-white pt-32 text-center lg:text-left">Aekam Labs
+            
+                <div >
+                    <h1 class="font-mulish text-5xl font-semibold text-white pt-32 text-center lg:text-center">Aekam Labs
                     </h1>
-                    <p class="font-mulish text-2xl text-center text-white font-semibold mt-3 lg:text-left">Make things.
+                    <p class="font-mulish text-2xl text-center text-white font-semibold mt-3 lg:text-center">Master the art of building world-class software. Taught with <span style="color: red;">&#10084</span> from Coimbatore, India
                     </p>
-                    <p class="font-mulish text-white text-xl w-9/12 text-center m-auto py-10 mt-10 lg:text-left lg:m-0">
+                    <p class="font-mulish text-white text-xl w-9/12 text-center m-auto py-10 mt-10 lg:text-center ">
                         Lorem ipsum dolor sit amet consectetur
                         adipisicing elit. Eum vero voluptas dolorum maiores aperiam nemo saepe omnis soluta est
                         assumenda!</p>
                 </div>
-                <div class="flex justify-center pb-10 mt-10 lg:self-center lg:justify-end">
-                    <input type="text" placeholder="Email Id"
-                        class="w-1/2 shadow-inner border border-blue-900 h-14 text-xl px-2 rounded-l-md">
-                    <button
-                        class=" text-lg bg-yellow-400  px-6 shadow-2xl   rounded-r-md hover:bg-yellow-500 hover:text-black">Get
-                        Invite</button>
-                </div>
-            </div>
+               
+        
         </nav>
     </header>
 
+    <section class="py-16 lg:grid lg:grid-cols-2 lg:place-content-center">
+        <p class="font-mulish text-center  font-semibold text-xl lg:self-center">Join the waitlist to be notified about the upcoming cohorts.</p>
+        <div class=" text-center pt-10 sm:flex sm:justify-center lg:self-center lg:pt-0 lg:justify-start">
+            <input type="text" placeholder="Enter your email address" 
+                class="border w-5/6 sm:w-1/3 lg:w-1/2 rounded pl-3 py-2 sm:rounded-none sm:rounded-l-sm">
+            <button
+                class=" text-lg font-semibold hover:text-white bg-yellow-400 sm:w-1/5 lg:w-2/5 xl:w-1/5 px-6 py-2 shadow-2xl rounded w-5/6 mt-4 sm:mt-0 hover:bg-yellow-500 hover:text-black sm:rounded-none sm:rounded-r-sm
+                ">Join Waitlist</button>
+        </div>
+    </section>
 
-    <section class="pt-16 bg-gray-100">
-        <h2 class="font-mulish text-4xl font-bold text-black tracking-wide text-center mb-11">How it works?</h2>
+
+    <section class="pt-16 bg-cover text-white" style="background-image: url(./images/sectionbg.JPG);">
+        <h2 class="font-mulish text-4xl font-bold tracking-wide text-center mb-11">How it works?</h2>
         <div class="grid grid-cols-1 justify-items-center items-center py-6 md:grid-cols-4">
             <div class="py-8">
                 <img src="images/idea.png">
@@ -89,27 +95,29 @@
 
     <section class="bg-white">
         <h1 class="font-mulish text-4xl font-bold tracking-wide text-center py-10">Ongoing Cohorts</h1>
-        <div class="grid grid-cols-1 place-items-center py-10 sm:grid-cols-2">
+        <div class="grid grid-cols-1 place-items-center py-10 md:grid-cols-2">
 
-            <div class="border border-indigo-100 rounded font-mulish bg-gradient-to-r from-purple-500 via-purple-400 to-purple-300 w-11/12">
-                <div class="flex py-10 justify-center">
-                <img src="./images/developer.png" alt="Dev icon" class="object-contain w-28 ml-3 h-28">
-                <div class="px-4 mt-8">
-                    <h1 class="font-bold">Frontend Development</h1>
-                    <p class="font-medium text-sm">16 weeks</p>
+            <div class="lg:m-4 shadow-md hover:shadow-lg hover:bg-gray-100 rounded-lg bg-white my-12 mx-8 font-mulish">
+                <!-- Card Image -->
+                <img src="./images/react.png" alt=""class="overflow-hidden w-full h-90">
+                <!-- Card Content -->
+                <div class="p-4">
+                  <h3 class="font-medium text-gray-600 text-lg my-2 uppercase">Frontend Developer</h3>
+                  <p class="text-justify">Become a job-ready Frontend Developer by the end of 16 weeks, and get an upgrade to your career.</p>
+                  
                 </div>
-            </div>
-        </div>
+              </div>
 
-        <div class="border border-indigo-100 rounded font-mulish bg-gradient-to-r from-blue-500 via-blue-400 to-blue-300 w-11/12 mt-5 sm:mt-0">
-            <div class="flex py-10 justify-center">
-            <img src="./images/app.png" alt="Dev icon" class="object-contain w-28 ml-3 h-28">
-            <div class="px-4 py-5">
-                <h1 class="font-bold ">Flutter: 0 to 100</h1>
-                <p class="font-medium text-sm">16 weeks</p>
-            </div>
-        </div>
-    </div>
+              <div class="lg:m-4 shadow-md hover:shadow-lg hover:bg-gray-100 rounded-lg bg-white my-12 mx-8">
+                <!-- Card Image -->
+                <img src="./images/flutter.png" alt=""class="overflow-hidden w-full h-80 object-cover font-mulish">
+                <!-- Card Content -->
+                <div class="p-4">
+                  <h3 class="font-medium text-gray-600 text-lg my-2 uppercase">Flutter: 0 to 100</h3>
+                  <p class="text-justify">Developing for mobile platforms can be frustrating, and Flutter is Google’s solution to make mobile development better.</p>
+                  
+                </div>
+              </div>
     </div>
     </section>
 
@@ -140,9 +148,9 @@
                 class="col-span-2 justify-self-center py-5 md:col-span-1 md:row-span-3 md:justify-self-center md:self-center md:pb-0">
                 <h4 class="font-mulish text-center md:text-left">Say Hi!</h4>
                 <form action="#" class="pt-3">
-                    <input type="text" placeholder="name" class="mb-1.5 font-mulish pl-2 border-2 border-black">
+                    <input type="text" placeholder="Name" class="mb-1.5 font-mulish pl-2 border-2 border-black">
                     <br>
-                    <input type="text" placeholder="email" class="mb-3 font-mulish pl-2 border-2 border-black">
+                    <input type="text" placeholder="Email" class="mb-3 font-mulish pl-2 border-2 border-black">
                     <br>
                 </form>
             </div>
