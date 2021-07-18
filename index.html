@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -14,8 +15,11 @@
 </head>
 
 <body>
-    <header class="pb-10 sm:pb-24" style="background-image: url(/images/headerbg.JPG); background-size: cover; background-repeat: no-repeat;">
+    <!--Header-->
+    <header class="pb-10 sm:pb-24"
+        style="background-image: url(./images/headerbg.JPG); background-size: cover; background-repeat: no-repeat;">
 
+        <!--Navigation bar starts-->
         <nav class="md:pt-5 md:w-4/5 md:m-auto">
             <img src="./images/Logo_white.png" alt="Aekam Logo"
                 class="h-10 w-10 ml-5 inline-block object-contain mt-5 md:h-14 md:w-14">
@@ -31,60 +35,60 @@
                     <li class="px-4 py-2 text-left md:inline md:text-lg "><a href="#">Courses</a></li>
                 </ul>
             </div>
-            
-                <div >
-                    <h1 class="font-mulish text-5xl font-semibold text-white pt-32 text-center lg:text-center">Aekam Labs
-                    </h1>
-                    <p class="font-mulish text-2xl text-center text-white font-semibold mt-3 lg:text-center">Master the art of building world-class software. Taught with <span style="color: red;">&#10084</span> from Coimbatore, India
-                    </p>
-                    <p class="font-mulish text-white text-xl w-9/12 text-center m-auto py-10 mt-10 lg:text-center ">
-                        Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Eum vero voluptas dolorum maiores aperiam nemo saepe omnis soluta est
-                        assumenda!</p>
-                </div>
-               
-        
+
+            <div>
+                <h1 class="font-mulish text-5xl font-semibold text-white pt-32 text-center lg:text-center">Aekam Labs
+                </h1>
+                <p class="font-mulish text-2xl text-center text-white font-semibold mt-3 lg:text-center">Master the art
+                    of building world-class software. Taught with <span style="color: red;">&#10084</span> from
+                    Coimbatore, India
+                </p>
+
+            </div>
+
+            <div class=" text-center pt-20 sm:flex sm:justify-center lg:self-center">
+                <input type="text" placeholder="Enter your email address"
+                    class="border w-5/6 sm:w-1/3 rounded pl-3 py-2 sm:rounded-none sm:rounded-l-sm">
+                <button class=" text-lg font-semibold hover:text-white bg-yellow-400 sm:w-1/5 lg:w-2/5 xl:w-1/6 px-6 py-2 shadow-md rounded w-5/6 mt-4 sm:mt-0 hover:bg-yellow-500 sm:rounded-none sm:rounded-r-sm
+                        ">Join Waitlist</button>
+
+            </div>
+            <p class="text-white font-mulish text-center  font-semibold text-xl lg:self-center mt-6">Join the waitlist
+                to be notified about the upcoming cohorts.</p>
+
+
         </nav>
+        <!--Navigation bar ends-->
     </header>
+    <!--Header End-->
 
-    <section class="py-16 lg:grid lg:grid-cols-2 lg:place-content-center">
-        <p class="font-mulish text-center  font-semibold text-xl lg:self-center">Join the waitlist to be notified about the upcoming cohorts.</p>
-        <div class=" text-center pt-10 sm:flex sm:justify-center lg:self-center lg:pt-0 lg:justify-start">
-            <input type="text" placeholder="Enter your email address" 
-                class="border w-5/6 sm:w-1/3 lg:w-1/2 rounded pl-3 py-2 sm:rounded-none sm:rounded-l-sm">
-            <button
-                class=" text-lg font-semibold hover:text-white bg-yellow-400 sm:w-1/5 lg:w-2/5 xl:w-1/5 px-6 py-2 shadow-2xl rounded w-5/6 mt-4 sm:mt-0 hover:bg-yellow-500 hover:text-black sm:rounded-none sm:rounded-r-sm
-                ">Join Waitlist</button>
-        </div>
-    </section>
-
-
-    <section class="pt-16 bg-cover text-white" style="background-image: url(./images/sectionbg.JPG);">
+    <!--How it works section starts-->
+    <section class="pt-16">
         <h2 class="font-mulish text-4xl font-bold tracking-wide text-center mb-11">How it works?</h2>
         <div class="grid grid-cols-1 justify-items-center items-center py-6 md:grid-cols-4">
             <div class="py-8">
-                <img src="images/idea.png">
+                <img src="images/idea.png" class="h-20 w-20">
             </div>
             <div class="mb-20 md:row-start-2 md:px-5">
                 <h6 class="font-mulish text-center text-xl font-semibold">Ideate</h6>
                 <p class="font-mulish text-sm py-2.5 md:text-center">Turn your idea from concept to MVP</p>
             </div>
             <div class="py-10">
-                <img src="images/design.png">
+                <img src="images/swatches.png" class="h-20 w-20">
             </div>
             <div class="mb-20 md:row-start-2 md:col-start-2 md:px-5">
                 <h6 class="font-mulish text-center text-xl font-semibold">Design</h6>
                 <p class="font-mulish text-sm py-2.5 md:text-center">Sketch out the product to align the user needs.</p>
             </div>
             <div class="py-8">
-                <img src="images/roadmap.png">
+                <img src="images/agile.png" class="h-20 w-20">
             </div>
             <div class="mb-20 md:row-start-2 md:col-start-3 md:px-5">
                 <h6 class="font-mulish text-center text-xl font-semibold">Develop</h6>
                 <p class="font-mulish text-sm py-2.5 md:text-center">Convert the design into a live application</p>
             </div>
             <div class="py-8">
-                <img src="images/deploy.png">
+                <img src="images/rocket.png" class="h-20 w-20">
             </div>
             <div class="mb-20 md:row-start-2 md:col-start-4 md:px-5">
                 <h6 class="font-mulish text-center text-xl font-semibold">Deploy</h6>
@@ -92,43 +96,45 @@
             </div>
         </div>
     </section>
+    <!--How it works section ends-->
 
-    <section class="bg-white">
-        <h1 class="font-mulish text-4xl font-bold tracking-wide text-center py-10">Ongoing Cohorts</h1>
-        <div class="grid grid-cols-1 place-items-center py-10 md:grid-cols-2">
+    <!--Ongoing Cohorts section starts-->
+    <section class="pb-10">
+        <h1 class="font-mulish text-4xl font-bold text-center py-10">Ongoing Cohorts</h1>
+        <div class="grid grid-cols-1 place-items-center py-10 md:grid-cols-2 ">
+            <div class="py-10 border font-mulish text-center w-11/12 rounded bg-gray-100 hover:shadow-lg md:w-2/3">
+                <h1 class="text-xl font-semibold">Frontend Devlopment</h1>
+                <img src="./images/coding.png" alt="#" class="h-20 w-20 m-auto pt-5 box-content">
+                <p class="font-mulish text-lg pt-5 mb-5">Build intelligent and beautiful websites.</p>
+                <a href="#"
+                    class="bg-red-500 py-2 px-2 rounded font-mulish text-white inline hover:transition hover:ease-in hover:duration-700 hover:bg-red-700">KNOW
+                    MORE</a>
+            </div>
 
-            <div class="lg:m-4 shadow-md hover:shadow-lg hover:bg-gray-100 rounded-lg bg-white my-12 mx-8 font-mulish">
-                <!-- Card Image -->
-                <img src="./images/react.png" alt=""class="overflow-hidden w-full h-90">
-                <!-- Card Content -->
-                <div class="p-4">
-                  <h3 class="font-medium text-gray-600 text-lg my-2 uppercase">Frontend Developer</h3>
-                  <p class="text-justify">Become a job-ready Frontend Developer by the end of 16 weeks, and get an upgrade to your career.</p>
-                  
-                </div>
-              </div>
+            <div
+                class="py-10 border mt-10 font-mulish text-center w-11/12 rounded bg-gray-100 hover:shadow-lg md:mt-0 md:w-2/3">
+                <h1 class="text-xl font-semibold">Flutter: 0 to 100</h1>
+                <img src="./images/mobile-web.png" alt="#" class="h-20 w-20 m-auto pt-5 box-content">
+                <p class="font-mulish text-lg pt-5 mb-5">Build world-class cross platform applications.</p>
+                <a href="#"
+                    class="bg-red-500 py-2 px-2 rounded font-mulish text-white inline hover:transition hover:ease-in hover:duration-700 hover:bg-red-700">KNOW
+                    MORE</a>
+            </div>
 
-              <div class="lg:m-4 shadow-md hover:shadow-lg hover:bg-gray-100 rounded-lg bg-white my-12 mx-8">
-                <!-- Card Image -->
-                <img src="./images/flutter.png" alt=""class="overflow-hidden w-full h-80 object-cover font-mulish">
-                <!-- Card Content -->
-                <div class="p-4">
-                  <h3 class="font-medium text-gray-600 text-lg my-2 uppercase">Flutter: 0 to 100</h3>
-                  <p class="text-justify">Developing for mobile platforms can be frustrating, and Flutter is Google’s solution to make mobile development better.</p>
-                  
-                </div>
-              </div>
-    </div>
+        </div>
+        </div>
     </section>
+    <!--Ongoing cohorts section ends-->
 
-    <footer class="bg-gray-300 py-5">
+    <!--Footer starts-->
+    <footer class="bg-gray-400 py-5">
         <div class="grid grid-cols-2 gap-y-4 justify-items-center md:grid-cols-5 md:gap-0">
             <div class="col-span-2 py-12 md:pb-0">
                 <img src="./images/Logo_blue with text.png" alt="Aekam Logo" class="object-contain h-28 w-28 ml-5">
             </div>
             <div class="py-8 md:py-0 md:row-span-3 md:justify-self-center md:self-center">
                 <h4 class="mb-3 font-mulish">Support</h4>
-                <ul class="list-none">
+                <ul>
                     <li class="font-mulish text-sm text-gray-600 mb-1">Help Center</li>
                     <li class="font-mulish text-sm text-gray-600 mb-1">Community Guidlines</li>
                     <li class="font-mulish text-sm text-gray-600 mb-1">Privacy Policy</li>
@@ -137,7 +143,7 @@
             </div>
             <div class="py-8 md:py-0 md:row-span-3 md:justify-self-center md:self-center">
                 <h4 class="mb-3">Company</h4>
-                <ul class="list-none">
+                <ul>
                     <li class="font-mulish text-sm text-gray-600 mb-1">About us</li>
                     <li class="font-mulish text-sm text-gray-600 mb-1">Blog</li>
                     <li class="font-mulish text-sm text-gray-600 mb-1">Career</li>
@@ -173,12 +179,6 @@
             </div>
         </div>
     </footer>
+    <!--Footer ends-->
 </body>
-
 </html>
-
-<!--
-
-
-
--->
